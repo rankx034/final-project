@@ -1,0 +1,23 @@
+5/12/22
+
+- Research question: can we predict the weather conditions on a given day in Delhi based on what previous weather metrics have shown?
+- To consider for future: What are the metrics?
+
+- For cleaning dataset: 
+Conditions:
+Clear - Clear
+Haze - Haze, Fog, Smoke, Heavy Fog, Blowing Sand, Light Fog, Light Haze, Patches of Fog, Sandstorm, Light Sandstorm, Partial Fog, Volcanic Ash, Widespread Dust
+Rain - Drizzle, Partial Rain, Light Rain, Heavy Rain, Light Drizzle, Light Rain Shower, Light thunderstorm, Light thunderstorm and rain, Rain showers, Thunderstorm, Thunderstorm and rain, Thunderstorms and hail, Light hail showers, mist, Light freezing rain, squalls
+Cloudy - Overcast, Mostly cloudy, Partly cloudy, Scattered clouds, funnel cloud
+Unknown - will all be dropped
+Blanks - will all be dropped
+
+Procedure for data cleaning:
+
+
+Drop rows with blank and unknown conditions in _conds column
+Drop unnecessary columns:  _heatindexm,  _precipm, 
+Drop rows with NaNs :  _vism,  _wgustm,  _windchillm,  _wspdm
+
+Change column titles
+ 
