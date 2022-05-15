@@ -18,5 +18,5 @@ This data was taken out from wunderground with the help of their easy to use api
 
 With the given atmospheric condition such as temperature, pressure, humidity, rain, snow, etc. we are trying to predict the weather if it is haze, rain, cloudy or clear.
 
-## Communication Protocols
-Our group meets on Zoom every 2-3 days to discuss whether our work in the project is ready to be uploaded to the main GitHub branch. In between those meetings, we use our "Group 8" Slack groupchat to share files and ideas for the project's direction. Each individual team member has their own GitHub.
+## Communication Protocol
+Our group meets on Zoom every 2-3 days to discuss whether our work in the project is ready to be uploaded to the main GitHub branch. In between those meetings, we use our "Group 8" Slack groupchat to share files and ideas for the project's direction. Each individual team member has their own GitHub branch. 
