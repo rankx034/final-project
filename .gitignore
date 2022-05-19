@@ -1,7 +1,12 @@
+# .DS_Store
+.DS_Store
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+.DS_Store
 
 # C extensions
 *.so
@@ -54,9 +59,6 @@ coverage.xml
 # Translations
 *.mo
 *.pot
-
-#.DS_Store
-.DS_Store
 
 # Django stuff:
 *.log
