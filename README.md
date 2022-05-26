@@ -1,6 +1,8 @@
 ![deeplearninggeneral](https://user-images.githubusercontent.com/95719819/168449229-3b4df5d7-3ded-4cda-92c4-9c519a8229c9.png)
 # Weather Prediction
 
+[Google Slides](https://docs.google.com/presentation/d/1KeeU3EgppuTGKXcuOER7i4_vZN0HvCgSK5DiS5jiEsY/edit?usp=sharing)
+
 ## Overview
 
 Weather forecasting is a science and a very important and crucial requirement in daily life. In this project we will develop a machine learning model accurate enough for predicting the weather conditions.
