@@ -1,0 +1,7 @@
+Dashboard overview:
+-We'll likely use Tableau and the visualizations we created with the SKlearnmetrics. 
+-Heatmaps, bar graphs
+-Tableau interactive will probably include user clicking on weather condition/feature or certain year/day
+to be able to see necessary information about a certain data point.
+- We'll feature a link to our Tableau page on the last slide of our presentation.
+- We'll have the confusion matrix/ prediction overview on the Google slides
