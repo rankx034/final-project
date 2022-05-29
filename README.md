@@ -20,3 +20,14 @@ With the given atmospheric condition such as temperature, pressure, humidity, ra
 
 ## Communication Protocol
 Our group meets on Zoom every 2-3 days to discuss whether our work in the project is ready to be uploaded to the main GitHub branch. In between those meetings, we use our "Group 8" Slack groupchat to share files and ideas for the project's direction. Each individual team member has their own GitHub branch. 
+
+## Machine Learning Model
+Desccription of preliminary feature engineering/selection:
+
+Charles - remocing features due to null-values, etc...
+
+Feature Engineering: the 'datetime-utc' column was converted to two seperate columns 'year' and 'month' so that we were dealing strictly with numeric values. We also dropped the 'wdire' column because it was a duplicate column where wind directions were labled as string values. This left us with a total of 16 features inlcuding the target variable.
+
+Data split:
+
+Model Choice: 
