@@ -66,7 +66,7 @@ We used Logistic Regression, Decision Tree, and Random Forest classifiers and ad
 - The precision score for the Decision Tree and Random Forest classifiers were 0.90 and 0.93, respectively. Performing virtually the same as without any techniques applied.
 - The balanced accuracy scores for the Random Forest Classifier did increase from 0.75 to 0.78 with oversampling techniques applied.
 
-![Oversampling]((https://user-images.githubusercontent.com/75644168/170896914-88eef73a-b85d-4ff5-b899-68a9a8c2f3f6.png)
+![Oversampling](https://user-images.githubusercontent.com/75644168/170896914-88eef73a-b85d-4ff5-b899-68a9a8c2f3f6.png)
 )
 
 #### Random Undersampling
