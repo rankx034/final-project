@@ -57,7 +57,8 @@ We used Logistic Regression, Decision Tree, and Random Forest classifiers and ad
 - The precision score for the Decision Tree and Random Forest classifiers were 0.90 and 0.93, respectively.
 - The Random Forest Classifier outperformed each model.
 
-![Classifiers]()
+![Classifiers](https://user-images.githubusercontent.com/75644168/170896908-ae426ebd-94fc-4b02-a0e6-ae25c623192b.png)
+)
 
 #### Random Oversampling 
 - The Logistic Regression model when applied with oversampling techniques also had a low balanced accuracy score of 0.63 in this case as well.
@@ -65,7 +66,8 @@ We used Logistic Regression, Decision Tree, and Random Forest classifiers and ad
 - The precision score for the Decision Tree and Random Forest classifiers were 0.90 and 0.93, respectively. Performing virtually the same as without any techniques applied.
 - The balanced accuracy scores for the Random Forest Classifier did increase from 0.75 to 0.78 with oversampling techniques applied.
 
-![Oversampling]()
+![Oversampling]((https://user-images.githubusercontent.com/75644168/170896914-88eef73a-b85d-4ff5-b899-68a9a8c2f3f6.png)
+)
 
 #### Random Undersampling
 - The Logistic Regression model when applied with undersampling techniques also had a low balanced accuracy score of 0.64 in this case as well.
@@ -73,7 +75,8 @@ We used Logistic Regression, Decision Tree, and Random Forest classifiers and ad
 - The precision score for the Decision Tree and Random Forest classifiers were 0.87 and 0.90, respectively. Performing worse than the oversampling method.
 - The balanced accuracy scores for the Random Forest Classifier did increase from 0.78 using the oversampling method 0.82 with oversampling techniques applied.
 
-![Undersampling]()
+![Undersampling](https://user-images.githubusercontent.com/75644168/170896930-bbac7c3a-07db-4ee7-888a-d1510c5add47.png)
+)
 
 Our model choice in the case is the Random Forest classifier with Oversampling techniques applied. Benefits to using a Random Forest classifier are that the model is robust against overfitting as well as it runs efficiently on large datasets such as ours. Some cons to this model specifically is that it has a low balanced accuracy score but high recall and precision scores which show not very many false negatived and false positives.
 
