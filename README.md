@@ -78,6 +78,6 @@ We used Logistic Regression, Decision Tree, and Random Forest classifiers and ad
 ![Undersampling](https://user-images.githubusercontent.com/75644168/170896930-bbac7c3a-07db-4ee7-888a-d1510c5add47.png)
 )
 
-Our model choice in the case is the Random Forest classifier with Oversampling techniques applied. Benefits to using a Random Forest classifier are that the model is robust against overfitting as well as it runs efficiently on large datasets such as ours. Some cons to this model specifically is that it has a low balanced accuracy score but high recall and precision scores which show not very many false negatived and false positives.
+Our model choice in the case is the Random Forest classifier with Oversampling techniques applied. Benefits to using a Random Forest classifier are that the model is robust against overfitting as well as it runs efficiently on large datasets such as ours. Some cons to this model specifically is that it has a low balanced accuracy score but high recall and precision scores which show not very many false negatives and false positives.
 
 [Link to Presentation](https://docs.google.com/presentation/d/1KeeU3EgppuTGKXcuOER7i4_vZN0HvCgSK5DiS5jiEsY/edit#slide=id.g12edf083185_0_1 "Link to Presentation")
