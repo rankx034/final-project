@@ -1,4 +1,16 @@
 # final-project
+
+## Files
+
+ML_Models.ipynb: Final version of the machine learning model used for this project. 
+delhi_weather_cleaned.csv: The original dataset obtained from Kaggle that has been cleaned for our use
+Database/conds.csv: CSV version of the conditions table from the database
+Database/features.csv: CSV version of the features table from the database
+Database/database_creation.ipynb: Creation of the SQLite database and the join
+Database/delhi.sqlite: The database in SQLite format
+MachineLearningModels/ : Includes various preliminary machine learning models. 
+
+
 ## Exploratory Analysis
 
 The dataset we started with contained 18 features, which we subsequently reduced to 18. Features such as snow, tornado, hail, and a wind direction column as string were determined not to contribute to the success of the machine learning model as they were too rare to provide meaningful change in outcome. Apart from this, we determined to drop all NaN values. Due to the nature of a weather dataset, we felt this would not have a significant impact on the spread of the dataset, as any given feature from any given day would not have a critical impact on the classification and would be difficult to provide an accurate value. We also narrowed down a total of 37 possible conditions to four. The four conditions now are haze, rain, cloudy, and clear. The haze category contains conditions such as sandstorm, smoke, and blowing sand. The rain category contains conditions such as drizzle, rain, and thunderstorm. The cloudy category contains conditions such as overcast and partly cloudy. The clear category remains the same and only contains the condition clear. Following the consolidation these categories and cleaning the dataset from missing values and unnecessary columns, the dataset was exported as a CSV, plugged into a SQLite database, and connected into our machine learning models. 
