@@ -11,20 +11,12 @@ We chose this topic because weather forecasting is one of the most complex equat
 
 ## Source of Data
 
-The source of our dataset is from Kaggle [Link to Source](https://www.kaggle.com/datasets/mahirkukreja/delhi-weather-data "(Link to Source)"). It is a weather dataset for the New Delhi city in India. 
+The source of our dataset is from Kaggle [Link to Source](https://www.kaggle.com/datasets/mahirkukreja/delhi-weather-data "Link"). It is a weather dataset for the New Delhi city in India. 
 This data was taken out from wunderground with the help of their easy to use api. It contains various features such as temperature, pressure, humidity, rain, precipitation,etc. from the year 1996 to 2017.
 
-## Questions to answer with the data
+## Purpose
 
-With the given atmospheric condition such as temperature, pressure, humidity, rain, snow, etc. we are trying to predict the weather if it is haze, rain, cloudy or clear.
-
-## Outline
-
-The first step for this project was to locate a suitable dataset. We found delhi_weather.csv and performed the cleaning process by dropping unnecessary columns and removing NaN values. We then created two preliminary machine learning models to test on the dataset. For this, logistic regression and decision tree were the two models. Initially, the decision tree model had good results, but we decided to test additional models in segment 2.
-
-In segment two, we also created a database using SQLite which can be found in delhi.sqlite in the Database folder. We began with two tables split from the original database, both using the datetime column as their primary key. The two tables were then merged, written into the database file, and then we were able to connect the database into the second set of machine learning models tested. 
-
-For segment 2, we tested logistic regression, decision tree, and random forest models with a variety of oversampling and undersampling techniques. We aggregated the accuracy and precision scores in ML_Models.ipynb and discussed which would be the most fitting to move forward with. In this segment we also began preparing our presentation by creating a draft of our final slide deck. An outline of what we would like the blueprint to look like was created in Dashboard_blueprint.txt, and much of the next week will be spent continuing to add to the dashboard and finalizing the machine learning model.
+With the given atmospheric conditions such as temperature, pressure, humidity, rain, snow, etc. can our machine learning model accurately predict if the weather is hazey, rainy, cloudy or clear?
 
 ## Database
 [Link to Database](https://github.com/rankx034/final-project/tree/main/Database "Link to Database")
