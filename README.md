@@ -91,8 +91,8 @@ Our model choice in this case is the Random Forest classifier with Oversampling 
 
 ## Dashboard
 
-The dashboard was created using Tableau: [Link to Dashboard]( "Link to Dashboard")
+The dashboard was created using Tableau: [Link to Dashboard](https://public.tableau.com/app/profile/dan.nyhan/viz/Final_project_dashboard_16541324242110/DelhiWeather_1 "Link to Dashboard")
 
 ## Presentation
 
-[Link to Presentation](https://public.tableau.com/app/profile/dan.nyhan/viz/Final_project_dashboard_16541324242110/DelhiWeather_1 "Link to Presentation")
+[Link to Presentation](https://docs.google.com/presentation/d/1KeeU3EgppuTGKXcuOER7i4_vZN0HvCgSK5DiS5jiEsY/edit#slide=id.g12edf083185_0_1 "Link to Presentation")
