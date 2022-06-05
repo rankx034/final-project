@@ -3,10 +3,14 @@
 
 ## Files Description
 
-- *delhi_weather_cleaned.csv: The original dataset obtained from Kaggle that has been cleaned for our use*
+- *delhi_weather_cleaned.csv: The original dataset obtained from Kaggle*
+- *DataCleaning.ipynb: Data cleaning using Python*
+- *delhi_weather.csv: The dataset that has been cleaned for our use*
+- *data_split.ipynb: The data is split into two tables*
 - *Database/conds.csv: CSV version of the conditions table from the database*
 - *Database/features.csv: CSV version of the features table from the database*
-- *Database/database_creation.ipynb: Creation of the SQLite database and the join Database/delhi.sqlite: The database in SQLite format*
+- *Database/database_creation.ipynb: Creation of the SQLite database and the join*
+- *Database/delhi.sqlite: The database in SQLite format*
 - *MachineLearningModels/: Includes all machine learning models we created.*
 - *MachineLearningModels/RandomForestClassifier.ipynb: Machine learning model we chose as the best performing model for this project.* 
 
