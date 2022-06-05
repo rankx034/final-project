@@ -1,7 +1,7 @@
 ![deeplearninggeneral](https://user-images.githubusercontent.com/95719819/168449229-3b4df5d7-3ded-4cda-92c4-9c519a8229c9.png)
 # New Delhi Weather Machine Learning Model
 
-## File Description
+## Files Description
 
 - *delhi_weather_cleaned.csv: The original dataset obtained from Kaggle that has been cleaned for our use*
 - *Database/conds.csv: CSV version of the conditions table from the database*
@@ -47,7 +47,7 @@ The dataset we started with contained 18 features, which we subsequently reduced
 
 ## Machine Learning
 
-[Link to Model Results](https://github.com/rankx034/final-project/tree/kiruthikasbranch/MachineLearningModels)
+[Link to Machine Learning Models](https://github.com/rankx034/final-project/tree/kiruthikasbranch/MachineLearningModels)
 
 ### Feature Engineering
 The 'datetime-utc' column was converted to two separate columns 'year' and 'month' so that we were dealing strictly with numeric values. We also dropped the 'wdire' column because it was a duplicate column where wind directions were labeled as string values. This left us with a total of 16 features including the target variable.
@@ -60,10 +60,19 @@ We used Logistic Regression, Decision Tree, and Random Forest classifiers and ad
 
 ![Models_Classification](https://user-images.githubusercontent.com/95719819/172074453-5d8a5837-3164-4dcc-8f8d-24004d183d20.png)
 
+## Model Choice
+
 Our final model choice is the **Random Forest classifier** with Oversampling techniques applied. Benefits to using a Random Forest classifier are that the model is robust against overfitting as well as it runs efficiently on large datasets such as ours. Some cons to this model specifically is that it has a low balanced accuracy score but high recall and precision scores which show not very many false negatives and false positives.
 
 ![Confusion Matrix](https://user-images.githubusercontent.com/75644168/172050389-672985ed-e5c5-4914-a9f5-2d6d1f023cd4.png)
 
 ![Classification Report](https://user-images.githubusercontent.com/75644168/172050400-c768a6a1-c382-475b-8c57-3f23299c641f.png)
 
+## Dashboard
+
+The dashboard was created using Tableau: [Link to Dashboard](https://public.tableau.com/app/profile/dan.nyhan/viz/Final_project_dashboard_16541324242110/DelhiWeather_1 "Link to Dashboard")
+
+## Presentation
+
 [Link to Presentation](https://docs.google.com/presentation/d/1KeeU3EgppuTGKXcuOER7i4_vZN0HvCgSK5DiS5jiEsY/edit#slide=id.g12edf083185_0_1 "Link to Presentation")
+
