@@ -11,7 +11,7 @@ We chose this topic because weather forecasting is one of the most complex equat
 
 ## Source of Data
 
-The source of our dataset is from https://www.kaggle.com/datasets/mahirkukreja/delhi-weather-data. It is a weather dataset for the New Delhi city in India. 
+The source of our dataset is from Kaggle [Link to Source](https://www.kaggle.com/datasets/mahirkukreja/delhi-weather-data "(Link to Source)"). It is a weather dataset for the New Delhi city in India. 
 This data was taken out from wunderground with the help of their easy to use api. It contains various features such as temperature, pressure, humidity, rain, precipitation,etc. from the year 1996 to 2017.
 
 ## Questions to answer with the data
@@ -29,7 +29,7 @@ For segment 2, we tested logistic regression, decision tree, and random forest m
 ## Database
 [Link to Database](https://github.com/rankx034/final-project/tree/main/Database "Link to Database")
 
-![ERD]()
+![ERD](https://user-images.githubusercontent.com/75644168/172050370-d961992e-2924-4470-9d5f-0e4c33a3ca21.png)
 
 We created a database using SQLite which can be found in delhi.sqlite. We began with two tables split from the original database, both using the datetime column as their primary key. The two tables were then merged, written into the database file, and then we were able to connect the database into the second set of machine learning models tested. 
 
@@ -83,10 +83,9 @@ Random Forest Classifier with Oversampling Performance:
 - Accuracy: 0.93
 - F1 Score: 0.93
 
-![Confusion Matrix]()
+![Confusion Matrix](https://user-images.githubusercontent.com/75644168/172050389-672985ed-e5c5-4914-a9f5-2d6d1f023cd4.png)
 
-![Classification Report]()
-
+![Classification Report](https://user-images.githubusercontent.com/75644168/172050400-c768a6a1-c382-475b-8c57-3f23299c641f.png)
 
 Our model choice in this case is the Random Forest classifier with Oversampling techniques applied. Benefits to using a Random Forest classifier are that the model is robust against overfitting as well as it runs efficiently on large datasets such as ours. Some cons to this model specifically is that it has a low balanced accuracy score but high recall and precision scores which show not very many false negatives and false positives.
 
