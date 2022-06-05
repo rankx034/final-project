@@ -3,9 +3,9 @@
 
 ## Files Description
 
-- *delhi_weather_cleaned.csv: The original dataset obtained from Kaggle*
+- *delhi_weather.csv: The original dataset obtained from Kaggle*
 - *DataCleaning.ipynb: Data cleaning using Python*
-- *delhi_weather.csv: The dataset that has been cleaned for our use*
+- *delhi_weather_cleaned.csv: The dataset that has been cleaned for our use*
 - *data_split.ipynb: The data is split into two tables*
 - *Database/conds.csv: CSV version of the conditions table from the database*
 - *Database/features.csv: CSV version of the features table from the database*
