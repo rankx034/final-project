@@ -1,6 +1,14 @@
 ![deeplearninggeneral](https://user-images.githubusercontent.com/95719819/168449229-3b4df5d7-3ded-4cda-92c4-9c519a8229c9.png)
 # Weather Prediction
 
+## File Description
+- *ML_Models.ipynb: Final version of the machine learning model used for this project.* 
+- *delhi_weather_cleaned.csv: The original dataset obtained from Kaggle that has been cleaned for our use*
+- *Database/conds.csv: CSV version of the conditions table from the database*
+- *Database/features.csv: CSV version of the features table from the database*
+- *Database/database_creation.ipynb: Creation of the SQLite database and the join Database/delhi.sqlite: The database in SQLite format*
+- *MachineLearningModels/: Includes various preliminary machine learning models.*
+
 ## Overview
 
 Weather forecasting is a science and a very important and crucial requirement in daily life. In this project we will develop a machine learning model accurate enough for predicting the weather conditions.
