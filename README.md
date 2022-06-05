@@ -47,7 +47,8 @@ We separated our target value, 'conds', from our features and imported sklearns 
 ### Models Results/Comparison 
 We used Logistic Regression, Decision Tree, and Random Forest classifiers and added over and undersampling techniques to these models and compared the performance of the models
 
-![Models_Classification](https://user-images.githubusercontent.com/95719819/172068672-b85310e0-fe92-42e2-a634-d6f0f58d5532.png)
+![Models_Classification](https://user-images.githubusercontent.com/95719819/172069183-fdeb2c30-3327-4ecb-b3ce-3cdac8fbd1df.png)
+
 
 ### Model Choice
 Our model choice in the case is the **Random Forest classifier** with Oversampling techniques applied. Benefits to using a Random Forest classifier are that the model is robust against overfitting as well as it runs efficiently on large datasets such as ours. Some cons to this model specifically is that it has a low balanced accuracy score but high recall and precision scores which show not very many false negatives and false positives.
