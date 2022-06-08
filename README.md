@@ -1,5 +1,5 @@
 ![deeplearninggeneral](https://user-images.githubusercontent.com/95719819/168449229-3b4df5d7-3ded-4cda-92c4-9c519a8229c9.png)
-# Weather Prediction
+# New Delhi Weather Machine Learning Model
 
 ## File Description
 - *ML_Models.ipynb: Final version of the machine learning model used for this project.* 
